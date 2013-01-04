@@ -6,7 +6,8 @@ blueprint:
 applications:
   .:
     name: env-vars-sinatra
-    framework: sinatra
+    framework: 
+      name: sinatra
     runtime: ruby19
     memory: 64M
     instances: 1
